@@ -4,7 +4,7 @@
 </head>
 <h1> Posted successfully</h1>
 <% @contents.each do |content| %>
-  Title: <h2><%=content.title %></h2>
+  Title: <h2><%= link_to content.title, content %></h2>
   Description: <h3><%=content.description %></h3>
   Summary: <p><%=content.comments %></p>
 
