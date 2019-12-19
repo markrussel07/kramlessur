@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome</title>
+</head>
+<body>
+<h1> Welcome to Rails!</h1>
+
+</body>
+
+<h3>What's on your mind?</h3>
+<form action="/practical" method="POST">
+  <input type="hidden" name="authenticity_token" value="<%=form_authenticity_token %>">
+  Title:    <input type="text" name="content[title]" placeholder="enter title"><br>
+  Description: <input type="text" name="content[description]" placeholder="enter description"><br>
+  Summary: <input type="text" name="content[comments]" placeholder="enter summary">
+  <br><input type="submit" name="submit" class="submit" value="Post Now">
+</form>
+
+
+
+</html>
