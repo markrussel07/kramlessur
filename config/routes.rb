@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   post '/practical' => 'practical#create'
   get '/posts' => 'posts#index'
 
+
 end

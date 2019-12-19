@@ -1,2 +1,3 @@
 class Practical < ApplicationRecord
+
 end
